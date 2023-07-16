@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/7784482.png">
+  
+  <title>Newsletter sign-up form with success message</title>
+
+  <!-- Link css -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; color: #fff;}
+    .attribution a { color: hsl(228, 67%, 54%); }
+  </style>
+</head>
+<body>
+
+
+  <div class="conatainer">
+    <div class="card">
+      <div class="texts">
+        <h1>Stay updated!</h1>
+        <p> Join 60,000+ product managers receiving monthly <br> updates on:</p>
+        <li><img src="./assets/images/icon-list.svg" alt="icon-list"> Product discovery and building what matters</li>
+        <li><img src="./assets/images/icon-list.svg" alt="icon-list"> Measuring to ensure updates are a success</li>
+        <li><img src="./assets/images/icon-list.svg" alt="icon-list"> And much more!</li>
+        <div class="submit">
+          <div class="valid">
+          <label for="">Email address</label>
+          <p id="valid-p">Valid email required</p>
+          </div>
+          <input type="text" id="inp" class="email" placeholder="email@company.com" id="inp">
+          <input type="submit" id="btn" class="sub" value=" Subscribe to monthly newsletter">
+        </div>
+      </div>
+      <div class="img">
+        <img src="./assets/images/illustration-sign-up-desktop.svg" alt="illustration-sign-up">
+      </div>
+    </div>
+  </div>
+
+  <div class="conatainer2">
+    <div class="card2">
+      <div class="texts2">
+          <div class="img2">
+         <img src="./assets/images/icon-success.svg" alt="">
+      </div>
+        <h2>Thanks for <br> subscribing!</h2>
+        <p id="Success-P"> </p>
+        <div class="submit2">
+         <input type="submit" id="btn2" class="sub2" value=" Dismiss message ">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Mohamed Salah</a>.
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
