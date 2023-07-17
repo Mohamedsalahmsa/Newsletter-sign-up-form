@@ -14,14 +14,7 @@ a {
 /* Global */
 /* Font*/
 
-@font-face {
-    font-family: Roboto-Regular;
-    src: url(./assets/fonts/Roboto-Regular.ttf);
-}
-@font-face {
-    font-family: Roboto-Bold;
-    src: url(/assets/fonts/Roboto-Bold.ttf);
-}
+
 
 /* root */
 :root {
@@ -43,7 +36,8 @@ a {
 
 body {
     background-color: var(--Charcoal-Grey);
-    font-family: Roboto-Bold;
+        font-family: Roboto;
+        font-weight: 700;
 }
 
 /* ---------------------------------- */
