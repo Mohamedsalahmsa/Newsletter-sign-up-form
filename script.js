@@ -23,7 +23,17 @@ if(inp !== "") {
             conatainer.style.display = "none";
             conatainer2.style.display = "flex";
             SuccessP.innerHTML = `A confirmation email has been sent to <br> <span>${inp.value}</span>  
-            Please open it and click <br> the button inside to confirm your subscription.`
+            Please open it and click <br> the button inside to confirm your subscription.`;
+            if(scrollY >= 300) {
+                window.onscroll = function() {
+                scrollTo({
+                    top: 0,
+                    left: 0,
+                    behavior: "smooth",
+                });
+            }
+            }
+            
         }
     })
 }
